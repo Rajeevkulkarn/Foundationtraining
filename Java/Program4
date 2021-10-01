@@ -1,0 +1,22 @@
+package Examplex;
+import java.util.*;
+import java.util.Scanner;
+public class Program4 {
+    public static void main(String[] args) {
+        HashSet se=new HashSet();
+        Scanner sc=new Scanner(System.in);
+        se.add(10);
+        se.add(5);
+        se.add(2);
+        System.out.println("Enter the element to be searched");
+        int a = sc.nextInt();
+        if(se.contains(a))
+        {
+            System.out.println(a+" is present is hashset");
+        }
+        else
+        {
+            System.out.println(a+" is not present in hashset5");
+        }
+    }
+}
