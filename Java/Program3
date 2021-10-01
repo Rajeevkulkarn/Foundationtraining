@@ -1,0 +1,23 @@
+package Examplex;
+
+import java.util.*;
+import java.util.Scanner;
+public class Program3 {
+    public static void main(String[] args) {
+        ArrayList ar=new ArrayList();
+        Scanner sc=new Scanner(System.in);
+        ar.add(20);
+        ar.add(10);
+        ar.add(30);
+        System.out.println("Enter the element to be searched");
+        int a=sc.nextInt();
+        if(ar.contains(a))
+        {
+            System.out.println(a+" is there in arraylist");
+        }
+        else
+        {
+            System.out.println(a+" is not in a arraylist");
+        }
+    }
+}
