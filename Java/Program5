@@ -1,0 +1,17 @@
+package Examplex;
+import java.util.*;
+public class Program5 {
+    public static void main(String[] args) {
+        ArrayList ar=new ArrayList();
+        ar.add(1);
+        ar.add(2);
+        ar.add(3);
+        int count=0;
+        Iterator it=ar.iterator();
+        for(int i=0;i<ar.size();i++)
+        {
+            count++;
+        }
+        System.out.println(count);
+    }
+}
