@@ -1,0 +1,16 @@
+package Examplex;
+import java.util.*;
+public class Program2 {
+    public static void main(String[] args) {
+        List list=new ArrayList();
+        list.add(10);
+        list.add(20);
+        list.add(30);
+        Integer a[]=new Integer[list.size()];
+        list.toArray(a);
+        for(int i=0;i<a.length;i++)
+        {
+            System.out.println("Element at the "+i+"th index is "+a[i]);
+        }
+    }
+}
